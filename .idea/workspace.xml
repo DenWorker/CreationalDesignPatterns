@@ -4,18 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="41c0cbb6-27b9-4d10-a4c2-3b0c849e6157" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DenWorker/ru/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DenWorker/ru/factory/CppDeveloper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DenWorker/ru/factory/JavaDeveloper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DenWorker/ru/factory/Program.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/DenWorker/ru/AppTest.java" afterDir="false" />
+    <list default="true" id="41c0cbb6-27b9-4d10-a4c2-3b0c849e6157" name="Changes" comment="Created two classes">
+      <change afterPath="$PROJECT_DIR$/src/main/java/DenWorker/ru/factory/CppDeveloperFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DenWorker/ru/factory/Developer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DenWorker/ru/factory/DeveloperFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DenWorker/ru/factory/JavaDeveloperFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DenWorker/ru/factory/PhpDeveloper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DenWorker/ru/factory/PhpDeveloperFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DenWorker/ru/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DenWorker/ru/factory/CppDeveloper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DenWorker/ru/factory/CppDeveloper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DenWorker/ru/factory/JavaDeveloper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DenWorker/ru/factory/JavaDeveloper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DenWorker/ru/factory/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DenWorker/ru/factory/Program.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +25,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -52,7 +53,7 @@
     "WebServerToolWindowFactoryState": "false",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
-    "settings.editor.selected.configurable": "actions.on.save"
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors"
   }
 }]]></component>
   <component name="RunManager">
@@ -83,8 +84,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1685622298826</updated>
-      <workItem from="1685622300073" duration="320000" />
+      <workItem from="1685622300073" duration="5772000" />
     </task>
+    <task id="LOCAL-00001" summary="Created two classes">
+      <created>1685622691354</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1685622691354</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,5 +109,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Created two classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created two classes" />
   </component>
 </project>

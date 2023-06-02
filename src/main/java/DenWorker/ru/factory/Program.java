@@ -2,10 +2,22 @@ package DenWorker.ru.factory;
 
 public class Program {
     public static void main(String[] args) {
-        JavaDeveloper javaDeveloper = new JavaDeveloper();
-        javaDeveloper.writeJavaCode();
+        DeveloperFactory developerFactory = createDeveloperBySpecialty("cpp");
+        Developer developer = developerFactory.createDeveloper();
 
-        CppDeveloper CppDeveloper = new CppDeveloper();
-        CppDeveloper.writeCppCode();
+        developer.writeCode();
+
+    }
+
+    static DeveloperFactory createDeveloperBySpecialty(String specialty) {
+        if (specialty.equalsIgnoreCase("java")) {
+            return new JavaDeveloperFactory();
+        } else if (specialty.equalsIgnoreCase("cpp")) {
+            return new CppDeveloperFactory();
+        } else if (specialty.equalsIgnoreCase("php")) {
+            return new PhpDeveloperFactory();
+        } else {
+            throw new RuntimeException(specialty + " is unknown speciaty!");
+        }
     }
 }
