@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="41c0cbb6-27b9-4d10-a4c2-3b0c849e6157" name="Changes" comment="Singleton pattern">
-      <change afterPath="$PROJECT_DIR$/src/main/java/DenWorker/ru/builder/website/Cms.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DenWorker/ru/builder/website/Website.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DenWorker/ru/builder/websiteBuilders/BuildWebsiteRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DenWorker/ru/builder/websiteBuilders/Director.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DenWorker/ru/builder/websiteBuilders/EnterpriseWebsiteBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DenWorker/ru/builder/websiteBuilders/VisitCardWebsiteBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DenWorker/ru/builder/websiteBuilders/WebsiteBuilder.java" afterDir="false" />
+    <list default="true" id="41c0cbb6-27b9-4d10-a4c2-3b0c849e6157" name="Changes" comment="Builder pattern">
+      <change afterPath="$PROJECT_DIR$/src/main/java/DenWorker/ru/prototype/Copyable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DenWorker/ru/prototype/Project.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DenWorker/ru/prototype/ProjectFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DenWorker/ru/prototype/VersionControlRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -60,7 +57,7 @@
       <recent name="DenWorker.ru.abstractFactory" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BuildWebsiteRunner">
+  <component name="RunManager" selected="Application.VersionControlRunner">
     <configuration name="AuctionSiteProject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DenWorker.ru.abstractFactory.projects.AuctionSiteProject" />
       <module name="DesignPatterns" />
@@ -113,12 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WebsiteBuilder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DenWorker.ru.builder.websiteBuilders.WebsiteBuilder" />
+    <configuration name="VersionControlRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DenWorker.ru.prototype.VersionControlRunner" />
       <module name="DesignPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DenWorker.ru.builder.websiteBuilders.*" />
+          <option name="PATTERN" value="DenWorker.ru.prototype.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,8 +125,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.VersionControlRunner" />
         <item itemvalue="Application.BuildWebsiteRunner" />
-        <item itemvalue="Application.WebsiteBuilder" />
         <item itemvalue="Application.ProgramRunner" />
         <item itemvalue="Application.AuctionSiteProject" />
         <item itemvalue="Application.Program" />
@@ -145,7 +142,7 @@
       <option name="presentableId" value="Default" />
       <updated>1685622298826</updated>
       <workItem from="1685622300073" duration="10836000" />
-      <workItem from="1685709836400" duration="10147000" />
+      <workItem from="1685709836400" duration="12586000" />
     </task>
     <task id="LOCAL-00001" summary="Created two classes">
       <created>1685622691354</created>
@@ -175,7 +172,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685874136442</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Builder pattern">
+      <created>1685877698616</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1685877698616</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -197,6 +201,7 @@
     <MESSAGE value="Factory pattern" />
     <MESSAGE value="Abstract factory pattern and changes in factory pattern." />
     <MESSAGE value="Singleton pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="Singleton pattern" />
+    <MESSAGE value="Builder pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Builder pattern" />
   </component>
 </project>
