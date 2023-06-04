@@ -4,17 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="41c0cbb6-27b9-4d10-a4c2-3b0c849e6157" name="Changes" comment="Created two classes">
-      <change afterPath="$PROJECT_DIR$/src/main/java/DenWorker/ru/factory/CppDeveloperFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DenWorker/ru/factory/Developer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DenWorker/ru/factory/DeveloperFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DenWorker/ru/factory/JavaDeveloperFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DenWorker/ru/factory/PhpDeveloper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DenWorker/ru/factory/PhpDeveloperFactory.java" afterDir="false" />
+    <list default="true" id="41c0cbb6-27b9-4d10-a4c2-3b0c849e6157" name="Changes" comment="Factory pattern">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DenWorker/ru/abstractFactory/bankingTeam/BankingPM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DenWorker/ru/abstractFactory/bankingTeam/BankingTeamFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DenWorker/ru/abstractFactory/bankingTeam/JavaDeveloper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DenWorker/ru/abstractFactory/bankingTeam/QATester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DenWorker/ru/abstractFactory/interfaceTeam/Developer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DenWorker/ru/abstractFactory/interfaceTeam/ProjectManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DenWorker/ru/abstractFactory/interfaceTeam/ProjectTeamFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DenWorker/ru/abstractFactory/interfaceTeam/Tester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DenWorker/ru/abstractFactory/projects/AuctionSiteProject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DenWorker/ru/abstractFactory/projects/SuperBankSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DenWorker/ru/abstractFactory/websiteTeam/ManualTester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DenWorker/ru/abstractFactory/websiteTeam/PhpDeveloper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DenWorker/ru/abstractFactory/websiteTeam/WebsitePM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DenWorker/ru/abstractFactory/websiteTeam/WebsiteTeamFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DenWorker/ru/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DenWorker/ru/factory/CppDeveloper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DenWorker/ru/factory/CppDeveloper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DenWorker/ru/factory/JavaDeveloper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DenWorker/ru/factory/JavaDeveloper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DenWorker/ru/factory/CppDeveloper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DenWorker/ru/factory/cppDev/CppDeveloper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DenWorker/ru/factory/CppDeveloperFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DenWorker/ru/factory/cppDev/CppDeveloperFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DenWorker/ru/factory/Developer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DenWorker/ru/factory/interfaceDevs/Developer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DenWorker/ru/factory/DeveloperFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DenWorker/ru/factory/interfaceDevs/DeveloperFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DenWorker/ru/factory/JavaDeveloper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DenWorker/ru/factory/javaDev/JavaDeveloper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DenWorker/ru/factory/JavaDeveloperFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DenWorker/ru/factory/javaDev/JavaDeveloperFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DenWorker/ru/factory/PhpDeveloper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DenWorker/ru/factory/phpDev/PhpDeveloper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DenWorker/ru/factory/PhpDeveloperFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DenWorker/ru/factory/phpDev/PhpDeveloperFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/DenWorker/ru/factory/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DenWorker/ru/factory/Program.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,24 +59,68 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors&quot;
   }
-}]]></component>
-  <component name="RunManager">
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="DenWorker.ru.abstractFactory" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.AuctionSiteProject">
+    <configuration name="AuctionSiteProject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DenWorker.ru.abstractFactory.projects.AuctionSiteProject" />
+      <module name="DesignPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DenWorker.ru.abstractFactory.interfaceTeam.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DenWorker.ru.factory.Program" />
       <module name="DesignPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DenWorker.ru.factory.*" />
+          <option name="PATTERN" value="DenWorker.ru.factory.cppDev.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SuperBankSystem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DenWorker.ru.abstractFactory.projects.SuperBankSystem" />
+      <module name="DesignPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DenWorker.ru.abstractFactory.interfaceTeam.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebsiteProject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DenWorker.ru.abstractFactory.WebsiteProject" />
+      <module name="DesignPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DenWorker.ru.abstractFactory.interfaceTeam.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -72,7 +130,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AuctionSiteProject" />
         <item itemvalue="Application.Program" />
+        <item itemvalue="Application.SuperBankSystem" />
+        <item itemvalue="Application.WebsiteProject" />
       </list>
     </recent_temporary>
   </component>
@@ -84,7 +145,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1685622298826</updated>
-      <workItem from="1685622300073" duration="5772000" />
+      <workItem from="1685622300073" duration="10836000" />
+      <workItem from="1685709836400" duration="3543000" />
     </task>
     <task id="LOCAL-00001" summary="Created two classes">
       <created>1685622691354</created>
@@ -93,7 +155,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685622691354</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Factory pattern">
+      <created>1685704274351</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1685704274351</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -112,6 +181,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Created two classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created two classes" />
+    <MESSAGE value="Factory pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Factory pattern" />
   </component>
 </project>
