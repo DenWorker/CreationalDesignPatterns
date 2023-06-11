@@ -1,6 +1,6 @@
-package DenWorker.ru.factory.javaDev;
+package DenWorker.ru.factoryMethod.javaDev;
 
-import DenWorker.ru.factory.interfaceDevs.Developer;
+import DenWorker.ru.factoryMethod.interfaceDevs.Developer;
 
 public class JavaDeveloper implements Developer {
     @Override

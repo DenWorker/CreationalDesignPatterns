@@ -1,6 +1,6 @@
-package DenWorker.ru.factory.cppDev;
+package DenWorker.ru.factoryMethod.cppDev;
 
-import DenWorker.ru.factory.interfaceDevs.Developer;
+import DenWorker.ru.factoryMethod.interfaceDevs.Developer;
 
 public class CppDeveloper implements Developer {
     @Override

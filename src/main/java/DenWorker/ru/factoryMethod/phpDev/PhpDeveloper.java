@@ -1,6 +1,6 @@
-package DenWorker.ru.factory.phpDev;
+package DenWorker.ru.factoryMethod.phpDev;
 
-import DenWorker.ru.factory.interfaceDevs.Developer;
+import DenWorker.ru.factoryMethod.interfaceDevs.Developer;
 
 public class PhpDeveloper implements Developer {
     @Override

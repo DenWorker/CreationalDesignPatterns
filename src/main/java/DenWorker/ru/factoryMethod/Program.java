@@ -1,10 +1,10 @@
-package DenWorker.ru.factory;
+package DenWorker.ru.factoryMethod;
 
-import DenWorker.ru.factory.cppDev.CppDeveloperFactory;
-import DenWorker.ru.factory.interfaceDevs.Developer;
-import DenWorker.ru.factory.interfaceDevs.DeveloperFactory;
-import DenWorker.ru.factory.javaDev.JavaDeveloperFactory;
-import DenWorker.ru.factory.phpDev.PhpDeveloperFactory;
+import DenWorker.ru.factoryMethod.cppDev.CppDeveloperFactory;
+import DenWorker.ru.factoryMethod.interfaceDevs.Developer;
+import DenWorker.ru.factoryMethod.interfaceDevs.DeveloperFactory;
+import DenWorker.ru.factoryMethod.javaDev.JavaDeveloperFactory;
+import DenWorker.ru.factoryMethod.phpDev.PhpDeveloperFactory;
 
 public class Program {
     public static void main(String[] args) {
